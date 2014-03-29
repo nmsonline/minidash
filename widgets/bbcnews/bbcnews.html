@@ -1,0 +1,20 @@
+<style>
+#wrapper { width: 1100px; height: 940px; padding: 0px; overflow: hidden; scrolling: no;}
+#scaled-frame { width: 1100px; height: 940px; border: 0px; overflow: hidden; scrolling: no;}
+#scaled-frame {
+    zoom: 0.26;
+    -moz-transform: scale(0.26);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.26);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.26);
+    -webkit-transform-origin: 0 0;
+	overflow: hidden;
+	scrolling: no;
+	}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #scaled-frame  { zoom: 1;  }
+}
+</style>
+<div id="wrapper"><iframe id="scaled-frame" src="http://bbc.co.uk/news"></iframe></div>
